@@ -1,0 +1,271 @@
+{
+  "ContentPart":[
+    {
+      "place": "Content",
+      "differentiator": "BeneficiarioPart",
+      "wrappers": ["Permessi_Wrapper__BeneficiarioPart"],
+      "contentType": [ "PermitParkDisabil" ]
+    }
+  ],
+  "ContentPart_Edit":[
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "PermitParkDisabil-PermitParkDisabilPart",
+      "contentType": [ "PermitParkDisabil" ]
+    },
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "AccessToAct-AccessToActPart",
+      "contentType": [ "AccessToAct" ]
+    },
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "AccessCivic-AccessCivicPart",
+      "contentType": [ "AccessCivic" ]
+    },
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "AccessToActEdil-AccessToActEdilPart",
+      "contentType": [ "AccessToActEdil" ]
+    }
+  ],
+  "ContentPart_DetailAdmin":[
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "PermitParkDisabilPart",
+      "contentType": [ "PermitParkDisabil" ]
+    },
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "AccessToActPart",
+      "contentType": [ "AccessToAct" ]
+    },
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "AccessCivicPart",
+      "contentType": [ "AccessCivic" ]
+    },
+    {
+      "place": "Content:0#Dati richiesta;3",
+      "differentiator": "AccessToActEdilPart",
+      "contentType": [ "AccessToActEdil" ]
+    }
+  ],
+  "BooleanField_Edit":[
+    {
+      "place": "Content:0#Informativa sulla privacy;1",
+      "differentiator": "PermitParkDisabilPart-Privacy",
+      "wrappers": ["Privacy_Wrapper"],
+      "contentType": [
+        "PermitParkDisabil"
+      ]
+    },
+    {
+      "place": "Content:0#Informativa sulla privacy;1",
+      "differentiator": "AccessToActPart-Privacy",
+      "wrappers": ["Privacy_Wrapper"],
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0#Informativa sulla privacy;1",
+      "differentiator": "AccessCivicPart-Privacy",
+      "wrappers": ["Privacy_Wrapper"],
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "Content:0#Informativa sulla privacy;1",
+      "differentiator": "AccessToActEdilPart-Privacy",
+      "wrappers": ["Privacy_Wrapper"],
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    }
+  ],
+  "BooleanField":[
+    {
+      "place": "-",
+      "differentiator": "PermitParkDisabilPart-Privacy",
+      "contentType": [
+        "PermitParkDisabil"
+      ]
+    },
+    {
+      "place": "-",
+      "differentiator": "AccessToActPart-Privacy",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "-",
+      "differentiator": "AccessCivicPart-Privacy",
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "-",
+      "differentiator": "AccessToActEdilPart-Privacy",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    }
+  ],
+  "DateField":[
+    {
+      "place": "Content:0",
+      "differentiator": "PermitParkDisabilPart-DurCon",
+      "contentType": [
+        "PermitParkDisabil"
+      ]
+    }
+  ],
+  "TextField": [
+    {
+      "place": "Content:0",
+      "differentiator": "PermitParkDisabilPart-TiCo",
+      "contentType": [
+        "PermitParkDisabil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActPart-Mot",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActPart-Sbj",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActPart-ModA",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActPart-ModD",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessCivicPart-TyAc",
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessCivicPart-Sbj",
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessCivicPart-ModA",
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessCivicPart-ModD",
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActEdilPart-Mot",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActEdilPart-Sbj",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActEdilPart-ModA",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActEdilPart-ModD",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    }
+  ],
+  "MediaField":[
+    {
+      "place": "Content:0",
+      "differentiator": "PermitParkDisabilPart-Att",
+      "contentType": [
+        "PermitParkDisabil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "PermitParkDisabilPart-Fo",
+      "contentType": [
+        "PermitParkDisabil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActPart-MotAtt",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActPart-SbjA",
+      "contentType": [
+        "AccessToAct"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessCivicPart-SbjA",
+      "contentType": [
+        "AccessCivic"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActEdilPart-MotAtt",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    },
+    {
+      "place": "Content:0",
+      "differentiator": "AccessToActEdilPart-SbjA",
+      "contentType": [
+        "AccessToActEdil"
+      ]
+    }
+  ]
+}
